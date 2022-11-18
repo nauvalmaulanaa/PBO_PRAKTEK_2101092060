@@ -78,12 +78,10 @@ public class warnetNauval {
     }
  
     public int getLama(){
-        Lama = JamKeluar - JamMasuk;
         return Lama;
     }
     
     public double getTotal(){
-        Total = Lama * Tarif - diskon;
         return Total;
     }
 }
